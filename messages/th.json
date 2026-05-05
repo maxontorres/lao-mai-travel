@@ -361,152 +361,297 @@
       },
       {
         "slug": "luang-prabang-waterfalls-caves",
-        "region": "Northern Laos",
-        "province": "Luang Prabang Province",
-        "name": "Luang Prabang Turquoise Falls & Sacred Caves Tour",
-        "highlight": "Experience the best of Luang Prabang — turquoise waterfalls, sacred caves, and a scenic Mekong boat ride — in one unforgettable day.",
-        "duration": "1 DAY",
-        "departure": "Your hotel in Luang Prabang Town",
-        "intro": "Discover northern Laos' most iconic attractions — from turquoise waterfalls to sacred caves — and meet local villagers along the scenic Mekong River. Perfect for travellers seeking nature, culture, and adventure in one day.",
+        "region": "ลาวเหนือ",
+        "province": "แขวงหลวงพระบาง",
+        "name": "ทัวร์น้ำตกสีฟ้าและถ้ำศักดิ์สิทธิ์หลวงพระบาง",
+        "highlight": "สัมผัสสิ่งที่ดีที่สุดของหลวงพระบาง — น้ำตกสีฟ้าใส ถ้ำศักดิ์สิทธิ์ และการล่องเรือโขงที่มีทิวทัศน์สวยงาม — ในวันที่ไม่มีวันลืม",
+        "duration": "1 วัน",
+        "departure": "โรงแรมของคุณในเมืองหลวงพระบาง",
+        "intro": "ค้นพบสถานที่ท่องเที่ยวที่เป็นสัญลักษณ์ที่สุดของลาวเหนือ — จากน้ำตกสีฟ้าใสสู่ถ้ำศักดิ์สิทธิ์ — และพบปะกับชาวบ้านท้องถิ่นตามแม่น้ำโขงที่มีทิวทัศน์สวยงาม เหมาะสำหรับนักเดินทางที่แสวงหาธรรมชาติ วัฒนธรรม และการผจญภัยในหนึ่งวัน",
         "highlights": [
-          "Scenic boat ride along the Mekong River to Pak Ou Caves",
-          "Explore the sacred Pak Ou Caves with thousands of Buddha statues",
-          "Visit traditional riverside villages and see authentic Lao crafts",
-          "Marvel at Kuang Si Waterfall with turquoise pools and forested views",
-          "Optional swimming or relaxing in the natural pools",
-          "Professional guide and comfortable transfers throughout"
+          "ล่องเรือชมทิวทัศน์ตามแม่น้ำโขงไปยังถ้ำปากอู",
+          "สำรวจถ้ำปากอูอันศักดิ์สิทธิ์ที่มีพระพุทธรูปนับพันองค์",
+          "เยี่ยมชมหมู่บ้านดั้งเดิมริมแม่น้ำและชมงานหัตถกรรมลาวแท้",
+          "ชื่นชมน้ำตกกวางสีที่มีสระน้ำสีฟ้าใสและทิวทัศน์ป่าไม้",
+          "ว่ายน้ำหรือผ่อนคลายในสระน้ำธรรมชาติ (เลือกได้)",
+          "ไกด์มืออาชีพและการรับส่งที่สะดวกสบายตลอดการเดินทาง"
         ],
         "days": [
           {
-            "title": "Full Day – Kuang Si Waterfall, Buffalo Dairy & Pak Ou Caves",
-            "body": "Visit Kuang Si Waterfall, one of Laos' most stunning natural wonders, where you can relax, take photos, swim in the turquoise pools, and hike to the top for panoramic views of the forested valley.\n\nOn the way back to town, stop at the Laos Buffalo Dairy Farm to learn about sustainable farming and see how local buffalo are raised, offering a unique insight into rural life and community development.\n\nContinue to the Mekong River pier for a scenic boat ride upriver to the Pak Ou Caves, home to thousands of Buddha statues in various shapes and sizes.\n\nOn the return journey, stop at riverside villages to meet local artisans and discover traditional Lao crafts before returning to Luang Prabang and enjoying the sunset over the Mekong."
+            "title": "ทั้งวัน – น้ำตกกวางสี ฟาร์มควาย และถ้ำปากอู",
+            "body": "เยี่ยมชมน้ำตกกวางสี หนึ่งในความมหัศจรรย์ทางธรรมชาติที่สวยงามที่สุดของลาว ที่ซึ่งคุณสามารถพักผ่อน ถ่ายรูป ว่ายน้ำในสระน้ำสีฟ้าใส และเดินขึ้นไปยังยอดเพื่อชมวิวพาโนรามาของหุบเขาป่าไม้\n\nระหว่างทางกลับเมือง แวะที่ฟาร์มควายลาวเพื่อเรียนรู้เกี่ยวกับการเกษตรแบบยั่งยืนและดูวิธีการเลี้ยงควายท้องถิ่น ซึ่งเป็นข้อมูลเชิงลึกที่ไม่เหมือนใครเกี่ยวกับชีวิตชนบทและการพัฒนาชุมชน\n\nเดินทางต่อไปยังท่าเรือแม่น้ำโขงเพื่อล่องเรือชมทิวทัศน์ไปยังถ้ำปากอู บ้านของพระพุทธรูปนับพันองค์ในรูปร่างและขนาดต่างๆ\n\nระหว่างการเดินทางกลับ แวะที่หมู่บ้านริมแม่น้ำเพื่อพบปะกับช่างฝีมือท้องถิ่นและค้นพบงานหัตถกรรมลาวดั้งเดิมก่อนกลับสู่หลวงพระบางและชมพระอาทิตย์ตกเหนือแม่น้ำโขง"
           }
         ],
         "includes": [
-          "English-speaking guide",
-          "Private vehicle and private motorboat",
-          "Drinking water",
-          "Entrance fees to all sites mentioned in the program",
-          "Government tax"
+          "ไกด์พูดภาษาอังกฤษ",
+          "รถยนต์ส่วนตัวและเรือยนต์ส่วนตัว",
+          "น้ำดื่ม",
+          "ค่าเข้าชมสถานที่ทั้งหมดที่ระบุในโปรแกรม",
+          "ภาษีรัฐบาล"
         ],
         "excludes": [
-          "Gratuities for guide, driver, porter, and hotel staff",
-          "Visa fees and travel insurance",
-          "Personal expenses of any nature"
+          "ทิปสำหรับไกด์ คนขับ พอร์เตอร์ และพนักงานโรงแรม",
+          "ค่าวีซ่าและประกันการเดินทาง",
+          "ค่าใช้จ่ายส่วนตัว"
         ]
       },
       {
         "slug": "luang-prabang-cultural-pottery",
-        "region": "Northern Laos",
-        "province": "Luang Prabang Province",
-        "name": "Luang Prabang Cultural & Pottery Experience",
-        "highlight": "Explore iconic temples, discover royal heritage, and try hands-on pottery making in a creative and immersive day.",
-        "duration": "1 DAY",
-        "departure": "Your hotel in Luang Prabang Town",
-        "intro": "Discover the rich history, spirituality, and craftsmanship of Luang Prabang in a single day. Explore iconic temples, learn about royal heritage, and try your hand at traditional Lao pottery in a creative and immersive experience.",
+        "region": "ลาวเหนือ",
+        "province": "แขวงหลวงพระบาง",
+        "name": "ประสบการณ์วัฒนธรรมและปั้นหม้อหลวงพระบาง",
+        "highlight": "สำรวจวัดที่เป็นสัญลักษณ์ ค้นพบมรดกราชวงศ์ และลองปั้นหม้อด้วยตนเองในวันที่สร้างสรรค์และเต็มไปด้วยประสบการณ์",
+        "duration": "1 วัน",
+        "departure": "โรงแรมของคุณในเมืองหลวงพระบาง",
+        "intro": "ค้นพบประวัติศาสตร์อันยาวนาน จิตวิญญาณ และงานฝีมือของหลวงพระบางในหนึ่งวัน สำรวจวัดที่เป็นสัญลักษณ์ เรียนรู้เกี่ยวกับมรดกราชวงศ์ และลองฝีมือปั้นหม้อแบบดั้งเดิมของลาวในประสบการณ์ที่สร้างสรรค์และเต็มไปด้วยความหมาย",
         "highlights": [
-          "Explore the Royal Palace Museum and learn about Laos' royal history",
-          "Visit Wat Xieng Thong and Wat Visoun, two of the city's most important temples",
-          "Hands-on pottery making at Ban Chan pottery village",
-          "Discover traditional Lao craftsmanship and interact with local artisans"
+          "สำรวจพิพิธภัณฑ์พระราชวังและเรียนรู้เกี่ยวกับประวัติศาสตร์ราชวงศ์ของลาว",
+          "เยี่ยมชมวัดเชียงทองและวัดวิศุณ สองวัดที่สำคัญที่สุดของเมือง",
+          "ลงมือปั้นหม้อด้วยตนเองที่หมู่บ้านหม้อบ้านจันทร์",
+          "ค้นพบงานฝีมือดั้งเดิมของลาวและมีปฏิสัมพันธ์กับช่างฝีมือท้องถิ่น"
         ],
         "days": [
           {
-            "title": "Full Day – Royal Palace Museum, Temples & Ban Chan Pottery",
-            "body": "Begin the day with a visit to the Royal Palace Museum, exploring its historic halls, royal artefacts, and beautiful gardens. Continue to Wat Xieng Thong, one of the most important and visually stunning temples in Luang Prabang, followed by a stop at Wat Visoun, known for its ancient stupa and serene atmosphere.\n\nAfter lunch, head to Ban Chan Pottery Village, where you can try hands-on pottery making, learning traditional techniques from skilled local artisans. Explore the village, observe the creative process, and take home your own pottery masterpiece as a unique souvenir. Conclude the tour with a comfortable transfer back to your hotel."
+            "title": "ทั้งวัน – พิพิธภัณฑ์พระราชวัง วัด และหม้อบ้านจันทร์",
+            "body": "เริ่มต้นวันด้วยการเยี่ยมชมพิพิธภัณฑ์พระราชวัง สำรวจห้องโถงประวัติศาสตร์ สิ่งของราชวงศ์ และสวนที่สวยงาม ไปต่อที่วัดเชียงทอง หนึ่งในวัดที่สำคัญและสวยงามที่สุดในหลวงพระบาง ตามด้วยการแวะที่วัดวิศุณ ที่ขึ้นชื่อด้วยเจดีย์โบราณและบรรยากาศที่สงบ\n\nหลังอาหารกลางวัน มุ่งหน้าไปยังหมู่บ้านหม้อบ้านจันทร์ ที่ซึ่งคุณสามารถลองปั้นหม้อด้วยตนเอง เรียนรู้เทคนิคดั้งเดิมจากช่างฝีมือท้องถิ่นที่มีทักษะ สำรวจหมู่บ้าน สังเกตกระบวนการสร้างสรรค์ และนำผลงานปั้นหม้อของคุณเองกลับบ้านเป็นของที่ระลึกที่ไม่เหมือนใคร สรุปทัวร์ด้วยการรับส่งกลับโรงแรมอย่างสะดวกสบาย"
           }
         ],
         "includes": [
-          "English-speaking guide",
-          "Private vehicle and private motorboat",
-          "Drinking water",
-          "Entrance fees to all sites mentioned in the program",
-          "Government tax"
+          "ไกด์พูดภาษาอังกฤษ",
+          "รถยนต์ส่วนตัวและเรือยนต์ส่วนตัว",
+          "น้ำดื่ม",
+          "ค่าเข้าชมสถานที่ทั้งหมดที่ระบุในโปรแกรม",
+          "ภาษีรัฐบาล"
         ],
         "excludes": [
-          "Gratuities for guide, driver, porter, and hotel staff",
-          "Visa fees and travel insurance",
-          "Personal expenses of any nature"
+          "ทิปสำหรับไกด์ คนขับ พอร์เตอร์ และพนักงานโรงแรม",
+          "ค่าวีซ่าและประกันการเดินทาง",
+          "ค่าใช้จ่ายส่วนตัว"
         ]
       },
       {
         "slug": "authentic-hmong-khmu-trek",
-        "region": "Northern Laos",
-        "province": "Luang Prabang Province",
-        "name": "Authentic Hmong & Khmu Trek from Luang Prabang",
-        "highlight": "Trek through bamboo forests, rice paddies, and waterfalls, visiting remote Hmong and Khmu villages with an authentic overnight homestay.",
-        "duration": "2 DAYS · 1 NIGHT",
-        "departure": "Your hotel in Luang Prabang Town",
-        "intro": "Embark on a scenic highland trek through lush bamboo forests, rice paddies, and waterfalls, visiting remote Hmong and Khmu villages, enjoying authentic homestay life, and immersing yourself in the rich culture of northern Laos.",
+        "region": "ลาวเหนือ",
+        "province": "แขวงหลวงพระบาง",
+        "name": "เดินป่าชนเผ่าม้งและขมูแท้จากหลวงพระบาง",
+        "highlight": "เดินป่าผ่านป่าไผ่ ทุ่งนา และน้ำตก เยี่ยมชมหมู่บ้านม้งและขมูห่างไกลพร้อมโฮมสเตย์ค้างคืนแท้จริง",
+        "duration": "2 วัน · 1 คืน",
+        "departure": "โรงแรมของคุณในเมืองหลวงพระบาง",
+        "intro": "เริ่มต้นการเดินป่าที่ราบสูงที่มีทิวทัศน์สวยงามผ่านป่าไผ่เขียวชอุ่ม ทุ่งนา และน้ำตก เยี่ยมชมหมู่บ้านม้งและขมูห่างไกล เพลิดเพลินกับชีวิตโฮมสเตย์แท้จริง และดื่มด่ำไปกับวัฒนธรรมอันเปี่ยมไปด้วยความหมายของลาวเหนือ",
         "days": [
           {
-            "title": "Day 1 – Luang Prabang → Ban Huay Lo → Ban Pha Phuang → Ban Mok Chong",
-            "body": "Depart from Luang Prabang at 08:30 and transfer 40 km north to the Khmu village of Ban Huay Lo, the starting point of your trek. Walk through scenic rice paddies, lush forests, and cascading waterfalls, stopping to visit the Hmong village of Ban Pha Phuang for a traditional local lunch.\n\nAfter lunch, continue trekking up the mountains, passing through spectacular landscapes, until reaching Ban Mok Chong, a village perched atop the hills. Here, you'll spend the night with a local host and gain insight into Hmong and Khmu culture.\n\nApproximate duration: 1 hour transfer + 5 hours trekking"
+            "title": "วันที่ 1 – หลวงพระบาง → บ้านห้วยหล่อ → บ้านผาพวง → บ้านหมอกจอง",
+            "body": "ออกเดินทางจากหลวงพระบางเวลา 08:30 น. และเดินทาง 40 กม. ไปทางเหนือสู่หมู่บ้านขมูบ้านห้วยหล่อ จุดเริ่มต้นของการเดินป่า เดินผ่านทุ่งนาที่มีทิวทัศน์สวยงาม ป่าเขียวชอุ่ม และน้ำตกที่ไหลตกลงมา หยุดเยี่ยมชมหมู่บ้านม้งบ้านผาพวงเพื่อรับประทานอาหารกลางวันท้องถิ่นแบบดั้งเดิม\n\nหลังอาหารกลางวัน เดินป่าต่อขึ้นไปบนภูเขา ผ่านภูมิทัศน์อันตระการตา จนถึงบ้านหมอกจอง หมู่บ้านที่ตั้งอยู่บนยอดเนินเขา ที่นี่ คุณจะพักค้างคืนกับเจ้าบ้านท้องถิ่นและเรียนรู้เกี่ยวกับวัฒนธรรมม้งและขมู\n\nระยะเวลาโดยประมาณ: เดินทาง 1 ชั่วโมง + เดินป่า 5 ชั่วโมง"
           },
           {
-            "title": "Day 2 – Ban Mok Chong → Ban Huay Kha → Ban Ladthahea → Luang Prabang",
-            "body": "After breakfast, continue trekking deeper into the rugged mountains west of the Nam Ou valley. The trail winds through serene bamboo forests and dramatic limestone scenery, offering stunning views at every turn. Lunch is served in a small hut beside a rice field, providing a genuine local experience.\n\nIn the afternoon, follow the trail to the village of Ban Ladthahea, where your vehicle waits for the transfer back to Luang Prabang.\n\nApproximate duration: 5 hours trekking + 1 hour transfer"
+            "title": "วันที่ 2 – บ้านหมอกจอง → บ้านห้วยขา → บ้านลาดทาเฮีย → หลวงพระบาง",
+            "body": "หลังอาหารเช้า เดินป่าต่อเข้าไปในภูเขาที่ขรุขระทางตะวันตกของหุบเขาน้ำอู เส้นทางวกไปตามป่าไผ่อันเงียบสงบและทิวทัศน์หินปูนที่งดงาม เสนอวิวที่สวยงามในทุกจุด รับประทานอาหารกลางวันในกระท่อมเล็กๆ ริมทุ่งนา ให้ประสบการณ์ท้องถิ่นอันแท้จริง\n\nในตอนบ่าย ไปตามเส้นทางสู่หมู่บ้านบ้านลาดทาเฮีย ที่รถของคุณรอเพื่อเดินทางกลับสู่หลวงพระบาง\n\nระยะเวลาโดยประมาณ: เดินป่า 5 ชั่วโมง + เดินทาง 1 ชั่วโมง"
           }
         ],
         "includes": [
-          "Accommodation at the hotels/homestays/campsites as specified in the itinerary",
-          "Professional tour guide in the selected language",
-          "All transportation as stated in the itinerary",
-          "Meals as indicated in the itinerary (from lunch on Day 1 to lunch on the final day)",
-          "Entrance fees to all sites mentioned in the program",
-          "Government tax"
+          "ที่พักโรงแรม/โฮมสเตย์/แคมป์ตามที่ระบุในกำหนดการ",
+          "ไกด์นำเที่ยวมืออาชีพในภาษาที่เลือก",
+          "การเดินทางทั้งหมดตามที่ระบุในกำหนดการ",
+          "อาหารตามที่ระบุในกำหนดการ (จากอาหารกลางวันวันที่ 1 ถึงอาหารกลางวันวันสุดท้าย)",
+          "ค่าเข้าชมสถานที่ทั้งหมดที่ระบุในโปรแกรม",
+          "ภาษีรัฐบาล"
         ],
         "excludes": [
-          "Gratuities for guide, driver, porter, and hotel staff",
-          "Meals not specified in the itinerary",
-          "International airfare",
-          "Optional tours and activities",
-          "Visa fees and travel insurance",
-          "Personal expenses of any nature"
+          "ทิปสำหรับไกด์ คนขับ พอร์เตอร์ และพนักงานโรงแรม",
+          "อาหารที่ไม่ระบุในกำหนดการ",
+          "ค่าบินระหว่างประเทศ",
+          "ทัวร์และกิจกรรมเสริม",
+          "ค่าวีซ่าและประกันการเดินทาง",
+          "ค่าใช้จ่ายส่วนตัว"
         ]
       },
       {
         "slug": "luang-prabang-cultural-homestay",
-        "region": "Northern Laos",
-        "province": "Luang Prabang Province",
-        "name": "Luang Prabang Cultural Exchange & Homestay Program",
-        "highlight": "An immersive 4-day cultural journey combining community engagement, student exchange, traditional ceremonies, and authentic village homestay life.",
-        "duration": "4 DAYS · 3 NIGHTS",
-        "departure": "Your hotel in Luang Prabang Town",
-        "intro": "Discover the rich heritage of Luang Prabang through an immersive cultural journey combining community engagement, student exchange, and authentic village life. This programme offers meaningful interaction with local students, hands-on cultural activities, and unforgettable memories in one of Southeast Asia's most charming destinations.",
+        "region": "ลาวเหนือ",
+        "province": "แขวงหลวงพระบาง",
+        "name": "โปรแกรมแลกเปลี่ยนวัฒนธรรมและโฮมสเตย์หลวงพระบาง",
+        "highlight": "การเดินทางทางวัฒนธรรมแบบ immersive 4 วันที่ผสมผสานการมีส่วนร่วมของชุมชน การแลกเปลี่ยนนักเรียน พิธีกรรมดั้งเดิม และชีวิตโฮมสเตย์หมู่บ้านที่แท้จริง",
+        "duration": "4 วัน · 3 คืน",
+        "departure": "โรงแรมของคุณในเมืองหลวงพระบาง",
+        "intro": "ค้นพบมรดกอันเปี่ยมไปด้วยความหมายของหลวงพระบางผ่านการเดินทางทางวัฒนธรรมแบบ immersive ที่ผสมผสานการมีส่วนร่วมของชุมชน การแลกเปลี่ยนนักเรียน และชีวิตหมู่บ้านที่แท้จริง โปรแกรมนี้นำเสนอการปฏิสัมพันธ์ที่มีความหมายกับนักเรียนท้องถิ่น กิจกรรมทางวัฒนธรรมแบบลงมือปฏิบัติ และความทรงจำที่ไม่มีวันลืมในหนึ่งในจุดหมายปลายทางที่มีเสน่ห์ที่สุดของเอเชียตะวันออกเฉียงใต้",
         "days": [
           {
-            "title": "Day 1 – Welcome to Luang Prabang",
-            "body": "Arrival in the UNESCO World Heritage city of Luang Prabang. Meet your local team and transfer to your hotel. After check-in, enjoy free time to relax or explore the town's unique blend of traditional Lao architecture, temples, and riverside charm at your own pace."
+            "title": "วันที่ 1 – ยินดีต้อนรับสู่หลวงพระบาง",
+            "body": "มาถึงเมืองมรดกโลกยูเนสโก หลวงพระบาง พบกับทีมท้องถิ่นของคุณและรับส่งไปยังโรงแรม หลังจากเช็คอินแล้ว เพลิดเพลินกับเวลาอิสระในการพักผ่อนหรือสำรวจการผสมผสานที่เป็นเอกลักษณ์ของสถาปัตยกรรมลาวแบบดั้งเดิม วัดวาอาราม และเสน่ห์ริมแม่น้ำของเมืองตามจังหวะของคุณเอง"
           },
           {
-            "title": "Day 2 – Village Homestay & Cultural Exchange",
-            "body": "Begin the day with a preparation session at the hotel before departing for the countryside.\n\nHighlights along the way:\n• Lunch at a local restaurant\n• Guided visit to Laos Buffalo Dairy to learn about sustainable farming and social enterprise initiatives\n• Visit to a local school for a student exchange experience\n• Scenic stop at Kuang Si Waterfall viewpoint for panoramic views of the famous turquoise cascades\n• Continue to the host village and settle into your homestay\n\nEvening Experiences:\n• Traditional storytelling session with the village chief\n• Cultural exchange activities with local students\n• Authentic Lao dinner at the homestay\n\nOvernight in the village homestay."
+            "title": "วันที่ 2 – โฮมสเตย์หมู่บ้านและการแลกเปลี่ยนวัฒนธรรม",
+            "body": "เริ่มต้นวันด้วยการเตรียมตัวที่โรงแรมก่อนออกเดินทางสู่ชนบท\n\nไฮไลท์ตามเส้นทาง:\n• อาหารกลางวันที่ร้านอาหารท้องถิ่น\n• เยี่ยมชมฟาร์มควายลาวแบบมีไกด์เพื่อเรียนรู้เกี่ยวกับการเกษตรแบบยั่งยืนและโครงการวิสาหกิจเพื่อสังคม\n• เยี่ยมชมโรงเรียนท้องถิ่นเพื่อประสบการณ์การแลกเปลี่ยนนักเรียน\n• แวะชมทิวทัศน์ที่จุดชมวิวน้ำตกกวางสีเพื่อชมวิวพาโนรามาของน้ำตกสีฟ้าใสที่มีชื่อเสียง\n• เดินทางต่อไปยังหมู่บ้านเจ้าบ้านและพักที่โฮมสเตย์\n\nประสบการณ์ตอนเย็น:\n• เซสชันการเล่าเรื่องดั้งเดิมกับผู้นำหมู่บ้าน\n• กิจกรรมแลกเปลี่ยนวัฒนธรรมกับนักเรียนท้องถิ่น\n• อาหารเย็นลาวแท้ที่โฮมสเตย์\n\nพักค้างคืนที่โฮมสเตย์หมู่บ้าน"
           },
           {
-            "title": "Day 3 – Village Life & Return to Town",
-            "body": "Experience the peaceful rhythm of rural Laos.\n\nMorning Activities:\n• Participate in the traditional alms-giving ceremony with local residents\n• Hands-on village activities, including traditional weaving\n• Interaction with community members and host families\n\nCultural Farewell:\n• Traditional Baci ceremony for blessings and safe travels\n• Lunch at the village hall with your host families\n• Return to Luang Prabang town in the afternoon\n\nIn the evening, enjoy a farewell dinner at a restaurant along the Mekong River — a perfect moment to celebrate friendships and shared experiences."
+            "title": "วันที่ 3 – ชีวิตหมู่บ้านและเดินทางกลับเมือง",
+            "body": "สัมผัสจังหวะอันสงบของชนบทลาว\n\nกิจกรรมตอนเช้า:\n• เข้าร่วมพิธีตักบาตรดั้งเดิมกับชาวบ้านท้องถิ่น\n• กิจกรรมหมู่บ้านแบบลงมือปฏิบัติ รวมถึงการทอผ้าแบบดั้งเดิม\n• การปฏิสัมพันธ์กับสมาชิกชุมชนและครอบครัวเจ้าบ้าน\n\nการอำลาทางวัฒนธรรม:\n• พิธีบาสีดั้งเดิมเพื่อความเป็นสิริมงคลและการเดินทางที่ปลอดภัย\n• อาหารกลางวันที่ศาลาหมู่บ้านกับครอบครัวเจ้าบ้าน\n• เดินทางกลับสู่เมืองหลวงพระบางในตอนบ่าย\n\nในตอนเย็น เพลิดเพลินกับอาหารเย็นอำลาที่ร้านอาหารริมแม่น้ำโขง — ช่วงเวลาที่สมบูรณ์แบบในการเฉลิมฉลองมิตรภาพและประสบการณ์ร่วมกัน"
           },
           {
-            "title": "Day 4 – Departure",
-            "body": "Enjoy free time at leisure until your transfer for departure."
+            "title": "วันที่ 4 – ออกเดินทาง",
+            "body": "เพลิดเพลินกับเวลาอิสระจนถึงเวลารับส่งเพื่อออกเดินทาง"
           }
         ],
         "includes": [
-          "Accommodation at the hotels/homestays/campsites as specified in the itinerary",
-          "Professional tour guide in the selected language",
-          "All transportation as stated in the itinerary",
-          "Meals as indicated in the itinerary",
-          "Entrance fees to all sites mentioned in the program",
-          "Government tax"
+          "ที่พักโรงแรม/โฮมสเตย์/แคมป์ตามที่ระบุในกำหนดการ",
+          "ไกด์นำเที่ยวมืออาชีพในภาษาที่เลือก",
+          "การเดินทางทั้งหมดตามที่ระบุในกำหนดการ",
+          "อาหารตามที่ระบุในกำหนดการ",
+          "ค่าเข้าชมสถานที่ทั้งหมดที่ระบุในโปรแกรม",
+          "ภาษีรัฐบาล"
         ],
         "excludes": [
-          "Gratuities for guide, driver, porter, and hotel staff",
-          "Meals not specified in the itinerary",
-          "International airfare",
-          "Optional tours and activities",
-          "Visa fees and travel insurance",
-          "Personal expenses of any nature"
+          "ทิปสำหรับไกด์ คนขับ พอร์เตอร์ และพนักงานโรงแรม",
+          "อาหารที่ไม่ระบุในกำหนดการ",
+          "ค่าบินระหว่างประเทศ",
+          "ทัวร์และกิจกรรมเสริม",
+          "ค่าวีซ่าและประกันการเดินทาง",
+          "ค่าใช้จ่ายส่วนตัว"
+        ]
+      },
+      {
+        "slug": "laos-discovery-journey",
+        "region": "ลาวเหนือ",
+        "province": "ปากเบ่ง / อุดมไซ / หลวงพระบาง / วังเวียง / เวียงจันทน์",
+        "name": "การเดินทางค้นพบลาว 8 วัน 7 คืน",
+        "highlight": "ประสบการณ์ที่ได้รับการคิดเลือกอย่างพิถีพิถันผ่านหัวใจของลาว ผสมผสานวัฒนธรรม ธรรมชาติ และการพบปะท้องถิ่นที่แท้จริง",
+        "duration": "8 วัน · 7 คืน",
+        "departure": "ห้วยทราย (ด่านตรวจคนเข้าเมืองลาว) / เวียงจันทน์ (สนามบินวัดใหม่ระหว่างประเทศ)",
+        "intro": "ประสบการณ์ที่ได้รับการคิดเลือกอย่างพิถีพิถันผ่านหัวใจของลาว ผสมผสานวัฒนธรรม ธรรมชาติ และการพบปะท้องถิ่นที่แท้จริง เดินทางจากแม่น้ำโขงผ่านหมู่บ้านชนเผ่าห่างไกล เมืองมรดกโลกยูเนสโก ภูมิทัศน์หินปูนที่งดงาม และเมืองหลวงที่มีเสน่ห์ของเวียงจันทน์",
+        "highlights": [
+          "ล่องเรือแม่น้ำโขงส่วนตัวจากห้วยทรายถึงปากเบ่ง",
+          "เยี่ยมชมหมู่บ้านชนเผ่าม้งและอาข่าห่างไกลในอุดมไซ",
+          "สัมผัสรถไฟความเร็วสูงผ่านลาวเหนือ",
+          "สำรวจหลวงพระบางมรดกโลกยูเนสโก",
+          "ค้นพบน้ำตกกวางสีและถ้ำปากอู",
+          "ชมพิธีตักบาตรตอนเช้าแบบดั้งเดิม",
+          "ล่องเรือชมพระอาทิตย์ตกตามแม่น้ำซองในวังเวียง",
+          "เยี่ยมชมพระธาตุหลวง สัญลักษณ์แห่งชาติที่ศักดิ์สิทธิ์ที่สุดของลาว"
+        ],
+        "days": [
+          {
+            "title": "วันที่ 1 | ปากเบ่ง (LA) (- / L / -)",
+            "body": "ยินดีต้อนรับสู่ลาว เมื่อมาถึง คุณจะได้รับการต้อนรับอย่างอบอุ่นจากไกด์ที่ด่านตรวจคนเข้าเมืองลาวก่อนเริ่มต้นการเดินทางตามสายน้ำที่เป็นสัญลักษณ์ที่สุดแห่งหนึ่งของเอเชียตะวันออกเฉียงใต้ — แม่น้ำโขง\n\nขึ้นเรือส่วนตัวที่ห้วยทรายและเพลิดเพลินกับการล่องเรือสบายๆ ไปตามแม่น้ำ ระหว่างทาง แวะที่หมู่บ้านริมแม่น้ำเพื่อสัมผัสชีวิตประจำวันที่เรียบง่ายแต่น่าสนใจของชุมชนท้องถิ่น มีอาหารกลางวันแพ็คบนเรือขณะเดินทางต่อ พร้อมการแวะเยี่ยมชมหมู่บ้านอีกแห่งระหว่างทาง\n\nคุณจะมาถึงปากเบ่งและเช็คอินที่ Sanctuary Pakbeng Lodge หรือโรงแรมที่คุณต้องการ ซึ่งคุณสามารถผ่อนคลายในบรรยากาศริมแม่น้ำที่สงบ"
+          },
+          {
+            "title": "วันที่ 2 | ปากเบ่ง – อุดมไซ (เมืองทาย) (B / L / -)",
+            "body": "หลังอาหารเช้า ออกเดินทางสู่เมืองไซ การขับรถที่มีทิวทัศน์สวยงามประมาณ 3.5 ชั่วโมง (150 กม.) โดยมีการหยุดแวะเยี่ยมชมหมู่บ้านท้องถิ่นและสังเกตชีวิตชนบทระหว่างทาง เมื่อมาถึงเมืองไซ คุณจะสังเกตเห็นลักษณะเฉพาะตัวที่เกิดจากอิทธิพลในภูมิภาคและตำแหน่งที่ตั้งเชิงยุทธศาสตร์\n\nรับประทานอาหารกลางวันที่ร้านอาหารกันยา (เซตเมนูพร้อมน้ำ ชา และกาแฟ)\n\nในตอนบ่าย เยี่ยมชมภูธาตุ ซึ่งมีวิวพาโนรามาเหนือเมืองและภูเขาโดยรอบ ต่อไปยัง Namkat Yorla Pa รีสอร์ทอีโคที่เงียบสงบตั้งอยู่ในป่าเขียวขจีใกล้พื้นที่คุ้มครอง หลังจากเช็คอิน เพลิดเพลินกับเวลาอิสระในการพักผ่อนหรือสำรวจกิจกรรมของรีสอร์ท รวมถึงปั่นจักรยาน เยี่ยมชมหมู่บ้าน เดินป่าน้ำตก หรือแค่พักผ่อนริมสระหรือสปา"
+          },
+          {
+            "title": "วันที่ 3 | อุดมไซ – หมู่บ้านชนเผ่า – หลวงพระบาง (B / L / -)",
+            "body": "เช้านี้ เริ่มต้นการเดินทางทางวัฒนธรรมที่ไม่เหมือนใครสู่ภูมิภาคเมืองล้าโดย 4WD เยี่ยมชมตลาดท้องถิ่นที่ชาวบ้านซื้อขายผลิตภัณฑ์ป่า ให้ภาพเหลื่อมของวิถีดั้งเดิม ไปต่อยังหมู่บ้านชาติพันธุ์ห่างไกล ที่ซึ่งคุณจะเรียนรู้เกี่ยวกับประเพณี ชีวิตประจำวัน และความเชื่อนับถือผีของชุมชนม้ง การเยี่ยมชมครั้งที่สองที่หมู่บ้านอาข่า (อีกอส) ให้ข้อมูลเชิงลึกเพิ่มเติม ที่ซึ่งผู้หญิงมักสวมหมวกดั้งเดิมที่ประดิษฐ์อย่างสวยงาม\n\nรับประทานอาหารกลางวันแพ็คท่ามกลางภูมิทัศน์ภูเขาที่สวยงาม\n\nในตอนบ่าย เยี่ยมชมวัดพระเจ้าสิงคำอันศักดิ์สิทธิ์ในเมืองล้าก่อนรับส่งไปยังสถานีรถไฟ ขึ้นรถไฟไปหลวงพระบาง (D83: 17:18 – 18:07, ชั้นสอง) เมื่อมาถึง รับส่งไปยังโรงแรมและเช็คอินที่ Sanctuary Luang Prabang หรือที่พักที่คุณต้องการ"
+          },
+          {
+            "title": "วันที่ 4 | หลวงพระบาง (B / L / -)",
+            "body": "วันนี้ ค้นพบเสน่ห์ของหลวงพระบาง เมืองมรดกโลกยูเนสโกที่มีชื่อเสียงด้วยความงามเหนือกาลเวลา\n\nเริ่มต้นด้วยการล่องเรือส่วนตัวตามแม่น้ำโขงไปยังถ้ำปากอูที่มีชื่อเสียง บ้านของพระพุทธรูปนับพัน ระหว่างทาง เยี่ยมชมบ้านเมืองคำ ที่ขึ้นชื่อด้วยการผลิตสาหร่ายแม่น้ำดั้งเดิม (ไข่) หลังจากสำรวจถ้ำล่างและบนแล้ว กลับสู่เมืองพร้อมเพลิดเพลินกับอาหารกลางวันเซตบนเรือ\n\nในตอนบ่าย สำรวจเมืองด้วยการเดินเท้า ชมการผสมผสานที่ไม่เหมือนใครของสถาปัตยกรรมลาวและอาณานิคม ไฮไลท์รวมถึงพิพิธภัณฑ์พระราชวัง วัดหอพระบาง วัดใหม่ และวัดเชียงทองที่เป็นสัญลักษณ์ จบวันของคุณด้วยการปีนภูสีเพื่อชมพระอาทิตย์ตกที่สวยงามเหนือแม่น้ำโขงและภูเขาโดยรอบ"
+          },
+          {
+            "title": "วันที่ 5 | หลวงพระบาง (B / L / -)",
+            "body": "วันที่เต็มไปด้วยความหมายรอคุณอยู่ขณะที่คุณสำรวจหลวงพระบางต่อ ผู้ที่ตื่นแต่เช้าอาจเลือกเข้าร่วมพิธีตักบาตร ประสบการณ์ทางจิตวิญญาณและวัฒนธรรมอันลึกซึ้ง\n\nหลังอาหารเช้า เดินทางไปยังน้ำตกกวางสีที่สวยงาม ที่ซึ่งสระน้ำสีฟ้าใสเชิญชวนให้คุณว่ายน้ำผ่อนคลาย สำรวจป่าโดยรอบและเยี่ยมชมศูนย์กู้ภัยหมี Free The Bears\n\nกลับสู่เมืองในตอนบ่ายและเพลิดเพลินกับเวลาอิสระตามจังหวะของคุณ ต่อมา เยี่ยมชมบ้านจันทร์ หมู่บ้านหม้อดั้งเดิม ที่ซึ่งคุณสามารถสังเกตช่างฝีมือท้องถิ่นที่ทำงานและเรียนรู้เกี่ยวกับงานฝีมือที่มีมาหลายศตวรรษ"
+          },
+          {
+            "title": "วันที่ 6 | หลวงพระบาง – วังเวียง (B / L / -)",
+            "body": "รับส่งไปยังสถานีรถไฟและขึ้นรถไฟความเร็วสูงที่สะดวกสบายไปวังเวียง (C91: 12:52 – 13:44, ชั้นหนึ่ง)\n\nเมื่อมาถึง คุณจะได้รับการต้อนรับและรับส่งไปยังโรงแรมเพื่อเช็คอิน ในช่วงบ่ายแก่ๆ เพลิดเพลินกับการล่องเรือชมพระอาทิตย์ตกที่ผ่อนคลายตามแม่น้ำซอง ล้อมรอบด้วยภูเขาหินปูนอันตระการตา\n\nรับประทานอาหารเย็นที่โรงแรม ในตอนเย็น คุณอาจสำรวจตลาดกลางคืนที่มีชีวิตชีวาหรือร้านค้าใกล้เคียงตามอัธยาศัย"
+          },
+          {
+            "title": "วันที่ 7 | วังเวียง (B / - / D)",
+            "body": "วันนี้อุทิศให้กับการสำรวจไฮไลท์ทางธรรมชาติของวังเวียง เยี่ยมชมถ้ำช้าง สถานที่สำคัญทางประวัติศาสตร์ที่มีวิวที่น่าประทับใจและเรื่องราวที่น่าทึ่งจากอดีต\n\nไปต่อยังบึงน้ำสีฟ้าที่มีชื่อเสียงแห่งหนึ่ง บึงน้ำสีฟ้า 2 ที่ซึ่งคุณสามารถพักผ่อน ว่ายน้ำ หรือเพียงแค่เพลิดเพลินกับธรรมชาติโดยรอบ สำหรับผู้ที่แสวงหาการผจญภัยมากขึ้น มีกิจกรรมเสริมเช่นพายเรือคายักหรือสำรวจถ้ำ\n\nช่วงบ่ายเป็นเวลาอิสระเพื่อผ่อนคลายหรือสำรวจส่วนตัว"
+          },
+          {
+            "title": "วันที่ 8 | วังเวียง – เวียงจันทน์ (B / L / -)",
+            "body": "หลังอาหารเช้า ออกเดินทางสู่เวียงจันทน์ เมืองหลวงที่มีเสน่ห์ของลาว (ประมาณ 1 ½ ชั่วโมง) เมื่อมาถึง เริ่มต้นทัวร์เมืองด้วยไกด์รวมถึงวัดสีสะเกษ ที่ขึ้นชื่อด้วยพระพุทธรูปนับพัน และหอพระแก้ว ไปต่อที่สวนพุทธ สวนประติมากรรมที่ไม่เหมือนใครที่มีรูปปั้นทางศาสนาที่น่าทึ่ง\n\nในตอนบ่าย เยี่ยมชมอนุสาวรีย์ประตูชัย เวอร์ชันลาวของประตูชัยปารีส และพระธาตุหลวงที่เป็นสัญลักษณ์ สัญลักษณ์แห่งชาติที่สำคัญที่สุดของประเทศ\n\nรับส่งไปยังสนามบินวัดใหม่ระหว่างประเทศเพื่อขึ้นเครื่องบินออกเดินทาง"
+          }
+        ],
+        "includes": [
+          "ที่พักแบบแชร์สองเตียง",
+          "อาหารเช้าทุกวัน (8 มื้อ)",
+          "อาหารกลางวันตามที่ระบุ (7 มื้อ)",
+          "อาหารเย็น 1 มื้อ",
+          "ตั๋วรถไฟ: อุดมไซ → หลวงพระบาง (ชั้น 2), หลวงพระบาง → วังเวียง (ชั้น 1)",
+          "ไกด์พูดภาษาอังกฤษส่วนตัว",
+          "การเดินทางส่วนตัวที่มีเครื่องปรับอากาศ",
+          "ล่องเรือแม่น้ำโขง",
+          "ล่องเรือชมพระอาทิตย์ตกในวังเวียง",
+          "การเดินทางด้วย 4WD ในอุดมไซ",
+          "น้ำดื่มและผ้าเช็ดตัวสดชื่น",
+          "ค่าเข้าชมตามโปรแกรม"
+        ],
+        "excludes": [
+          "เที่ยวบินระหว่างประเทศ",
+          "อาหารที่ไม่ระบุ",
+          "ค่าวีซ่าและการจัดเตรียม",
+          "ค่าใช้จ่ายส่วนตัว"
+        ]
+      },
+      {
+        "slug": "soul-of-laos",
+        "region": "หลายภูมิภาค",
+        "province": "เวียงจันทน์ / วังเวียง / หลวงพระบาง",
+        "name": "จิตวิญญาณแห่งลาว จากเสน่ห์เมืองหลวงสู่มรดกโลกยูเนสโก",
+        "highlight": "ค้นพบเสน่ห์ของเวียงจันทน์และสถานที่สำคัญอันเป็นสัญลักษณ์ รวมถึงพระธาตุหลวง",
+        "duration": "8 วัน · 7 คืน",
+        "departure": "เวียงจันทน์ / หลวงพระบาง",
+        "intro": "จากวัดทองคำของเวียงจันทน์สู่ที่ราบสูงหมอกคลุมของหลวงพระบาง การเดินทางนี้พาคุณผ่านหัวใจของลาว สัมผัสสถานที่สำคัญอันเป็นสัญลักษณ์ ทิวทัศน์ธรรมชาติที่สวยงาม และการพบปะวัฒนธรรมที่แท้จริงตลอดเส้นทาง",
+        "highlights": [
+          "ค้นพบเสน่ห์ของเวียงจันทน์และสถานที่สำคัญอันเป็นสัญลักษณ์ รวมถึงพระธาตุหลวง",
+          "สำรวจประติมากรรมอันเป็นเอกลักษณ์ของสวนพุทธ",
+          "สัมผัสภูมิทัศน์หินปูนที่สวยงามของวังเวียง",
+          "เพลิดเพลินกับการเดินทางด้วยรถไฟความเร็วสูงที่มีทิวทัศน์สวยงามไปหลวงพระบาง",
+          "ล่องเรือแม่น้ำโขงไปยังถ้ำปากอูอันศักดิ์สิทธิ์",
+          "ชมพิธีตักบาตรตอนเช้าแบบดั้งเดิม",
+          "มีส่วนร่วมในประสบการณ์แบบลงมือปฏิบัติที่ฟาร์ม Living Land"
+        ],
+        "days": [
+          {
+            "title": "วันที่ 1: มาถึงเวียงจันทน์",
+            "body": "ยินดีต้อนรับสู่ลาว! เมื่อมาถึงเวียงจันทน์ (เวลาจะแจ้งให้ทราบ) คุณจะได้รับการต้อนรับอย่างอบอุ่นจากไกด์และรับส่งไปยังโรงแรมในใจกลางเมือง ช่วงที่เหลือของวันคุณมีอิสระที่จะพักผ่อนหรือเริ่มสำรวจเสน่ห์ที่สบายๆ ของเมืองหลวง"
+          },
+          {
+            "title": "วันที่ 2: ไฮไลท์เมืองเวียงจันทน์ (อาหารเช้า, อาหารกลางวัน)",
+            "body": "เริ่มต้นการค้นพบเวียงจันทน์เวลา 8:30 น. เยี่ยมชมวัดสีสะเกษที่สงบ ซึ่งขึ้นชื่อด้วยพระพุทธรูปนับพันองค์ ตามด้วยวัดศรีเมืองที่เคารพนับถือ ไปต่อที่หอพระแก้ว ซึ่งเคยเป็นวัดหลวง และชมพระราชวัง\n\nหลังอาหารกลางวัน ชมประตูชัยอันเป็นสัญลักษณ์ ซึ่งมักถูกเปรียบเทียบกับประตูชัยปารีส ก่อนเยี่ยมชมพระธาตุหลวงอันศักดิ์สิทธิ์ อนุสาวรีย์แห่งชาติที่สำคัญที่สุดในลาว"
+          },
+          {
+            "title": "วันที่ 3: สวนพุทธ – เดินทางสู่วังเวียง (อาหารเช้า)",
+            "body": "เช้านี้ สำรวจสวนพุทธที่น่าทึ่ง บ้านของคอลเลกชันประติมากรรมพุทธและฮินดูที่หลากหลาย ตั้งอยู่ริมแม่น้ำโขง\n\nหลังจากนั้น เดินทางไปทางเหนือสู่วังเวียง (ประมาณ 160 กม.) มาถึงตอนบ่ายและเช็คอินที่โรงแรมของคุณ ซึ่งตั้งอยู่อย่างสวยงามริมแม่น้ำซองและล้อมรอบด้วยภูเขาหินปูนอันตระการตา"
+          },
+          {
+            "title": "วันที่ 4: ค้นพบวังเวียง (อาหารเช้า, อาหารกลางวัน)",
+            "body": "วันนี้ ดื่มด่ำกับภูมิทัศน์ธรรมชาติที่สวยงามของวังเวียง เดินทางผ่านชนบทเพื่อเยี่ยมชมหมู่บ้านท้องถิ่นและสำรวจระบบถ้ำที่น่าประทับใจ\n\nไฮไลท์รวมถึงถ้ำภูคำ ที่มีชื่อเสียงจากบึงน้ำสีฟ้าและพระนอน ถ้ำน้ำไซที่น่าสนใจ และถ้ำนางฟ้าอันลึกลับ ที่ขึ้นชื่อด้วยหินงอกที่โดดเด่นและห้องใต้ดิน"
+          },
+          {
+            "title": "วันที่ 5: รถไฟความเร็วสูงสู่หลวงพระบางและถ้ำปากอู (อาหารเช้า)",
+            "body": "รับส่งไปยังสถานีรถไฟเพื่อเดินทางด้วยรถไฟความเร็วสูงไปหลวงพระบาง (ออกเดินทางประมาณ 11:00 น.)\n\nเมื่อมาถึง พบกับไกด์ท้องถิ่นของคุณและดำเนินการต่อด้วยการล่องเรือแม่น้ำโขงที่มีทิวทัศน์สวยงามไปยังถ้ำปากอูอันศักดิ์สิทธิ์ ซึ่งเต็มไปด้วยพระพุทธรูปนับพันองค์ที่ผู้แสวงบุญวางไว้มานานหลายศตวรรษ กลับสู่หลวงพระบางในช่วงบ่ายแก่"
+          },
+          {
+            "title": "วันที่ 6: สำรวจหลวงพระบาง – เมืองมรดกโลกยูเนสโก (อาหารเช้า, อาหารกลางวัน)",
+            "body": "ค้นพบความงามเหนือกาลเวลาของหลวงพระบาง เมืองมรดกโลกยูเนสโก เยี่ยมชมพิพิธภัณฑ์พระราชวังและวัดที่สง่างามที่สุดบางแห่งของเมือง รวมถึงวัดเชียงทองและวัดวิศุณ\n\nในตอนเย็น ปีนภูสีเพื่อชมพระอาทิตย์ตกที่สวยงามเหนือแม่น้ำโขงและภูเขาโดยรอบ"
+          },
+          {
+            "title": "วันที่ 7: ตักบาตรและประสบการณ์ฟาร์ม Living Land (อาหารเช้า, อาหารกลางวัน)",
+            "body": "ตื่นแต่เช้าเพื่อชมพิธีตักบาตรตอนเช้าที่เงียบสงบ ที่ซึ่งพระสงฆ์นุ่งห่มผ้าเหลืองรับบิณฑบาตจากชาวบ้านท้องถิ่น ประสบการณ์ที่ลึกซึ้งทางจิตวิญญาณและน่าจดจำ\n\nหลังอาหารเช้า มุ่งหน้าไปยังฟาร์ม Living Land เพื่อประสบการณ์การทำนาแบบลงมือปฏิบัติ เรียนรู้ทุกขั้นตอนของการเพาะปลูกข้าวแบบดั้งเดิมและมีส่วนร่วมในกระบวนการด้วยตนเอง เพลิดเพลินกับอาหารกลางวันท้องถิ่นก่อนกลับโรงแรม"
+          },
+          {
+            "title": "วันที่ 8: ออกเดินทางจากหลวงพระบาง (อาหารเช้า)",
+            "body": "หลังอาหารเช้า ไกด์ของคุณจะรับส่งคุณไปยังสนามบินเพื่อต่อเที่ยวบินของคุณ เป็นการสิ้นสุดการเดินทางที่ไม่มีวันลืมผ่านลาว"
+          }
+        ],
+        "includes": [
+          "ที่พักตามที่ระบุในกำหนดการ",
+          "ไกด์นำเที่ยวมืออาชีพในภาษาที่เลือก",
+          "การเดินทางทั้งหมดตามที่ระบุในกำหนดการ",
+          "อาหารตามที่ระบุในกำหนดการ",
+          "ค่าเข้าชมสถานที่ทั้งหมดที่ระบุในโปรแกรม",
+          "ตั๋วรถไฟความเร็วสูง: วังเวียงสู่หลวงพระบาง",
+          "ล่องเรือแม่น้ำโขงไปถ้ำปากอู",
+          "ประสบการณ์ฟาร์ม Living Land",
+          "ภาษีรัฐบาล"
+        ],
+        "excludes": [
+          "ทิปสำหรับไกด์ คนขับ พอร์เตอร์ และพนักงานโรงแรม",
+          "ค่าวีซ่าและประกันการเดินทาง",
+          "ค่าใช้จ่ายส่วนตัว",
+          "อาหารที่ไม่ระบุในกำหนดการ",
+          "ตั๋วเครื่องบินระหว่างประเทศ"
         ]
       }
     ]

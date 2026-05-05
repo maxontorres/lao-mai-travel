@@ -109,6 +109,24 @@ const GALLERY: Record<string, string[]> = {
     '/img/tourpackages/luang-prabang-cultural-exchange-homestay-program/Luang Prabang Cultural Exchange & Homestay Program 4Days 3 Nights (4).jpeg',
     '/img/tourpackages/luang-prabang-cultural-exchange-homestay-program/Luang Prabang Cultural Exchange & Homestay Program 4Days 3 Nights (5).jpeg',
   ],
+  'laos-discovery-journey': [
+    '/img/tourpackages/vang-vieng-cave-kayaking-experience/laos-vang-vieng-river-water-landscape-peace-1663066-pxhere.com.jpg',
+    '/img/tourpackages/discover-the-hidden-villages-of-oudomxay-akha-&-hmong-day-tour/group-trekking.jpeg',
+    '/img/tourpackages/luang-prabang-cultural-exchange-homestay-program/Luang Prabang Cultural Exchange & Homestay Program 4Days 3 Nights (1).jpeg',
+    '/img/tourpackages/luang-prabang-turquoise-falls-sacred-caves-tour/Turquoise-Falls-&-Sacred-Caves-Tour-1.jpeg',
+    '/img/tourpackages/cycling-the-karsts-lagoons/palace-vacation-travel-buddhist-landmark-tourism-1275876-pxhere.com.jpg',
+    '/img/tourpackages/vang-vieng-cave-kayaking-experience/landscape-tree-water-nature-mountain-cloud-971263-pxhere.com.jpg',
+    '/img/tourpackages/vientiane-culinary-cultural-experience/palace-monument-tower-landmark-tourism-place-of-worship-568215-pxhere.com.jpg',
+  ],
+  'soul-of-laos': [
+    '/img/tourpackages/vientiane-culinary-cultural-experience/palace-monument-tower-landmark-tourism-place-of-worship-568215-pxhere.com.jpg',
+    '/img/tourpackages/vientiane-culinary-cultural-experience/restaurant-dish-food-asia-cuisine-soup-990286-pxhere.com.jpg',
+    '/img/tourpackages/cycling-the-karsts-lagoons/lagoon.png',
+    '/img/tourpackages/vang-vieng-cave-kayaking-experience/landscape-sea-water-mountain-cloud-sunset-1191000-pxhere.com.jpg',
+    '/img/tourpackages/luang-prabang-cultural-exchange-homestay-program/Luang Prabang Cultural Exchange & Homestay Program 4Days 3 Nights (2).jpeg',
+    '/img/tourpackages/luang-prabang-turquoise-falls-sacred-caves-tour/Turquoise-Falls-&-Sacred-Caves-Tour-2.jpg',
+    '/img/tourpackages/cycling-the-karsts-lagoons/building-vacation-travel-tourism-place-of-worship-temple-612026-pxhere.com.jpg',
+  ],
 }
 
 export async function generateStaticParams() {
@@ -125,6 +143,8 @@ export async function generateStaticParams() {
     { slug: 'luang-prabang-cultural-pottery' },
     { slug: 'authentic-hmong-khmu-trek' },
     { slug: 'luang-prabang-cultural-homestay' },
+    { slug: 'laos-discovery-journey' },
+    { slug: 'soul-of-laos' },
   ]
 }
 

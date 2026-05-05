@@ -40,6 +40,10 @@ const tourAssets: Record<string, string> = {
     '/img/tourpackages/authentic-hmong-&-khmu-trek-from-luang-prabang/group-photo-trekking.jpeg',
   'luang-prabang-cultural-homestay':
     '/img/tourpackages/luang-prabang-cultural-exchange-homestay-program/Luang Prabang Cultural Exchange & Homestay Program 4Days 3 Nights (1).jpeg',
+  'laos-discovery-journey':
+    '/img/hero/laos-temple.jpg',
+  'soul-of-laos':
+    '/img/tourpackages/soul-of-laos/vientiane-capital.jpg',
 }
 
 export default function TourPackages() {

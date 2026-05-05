@@ -517,6 +517,151 @@
           "Visa fees and travel insurance",
           "Personal expenses of any nature"
         ]
+      },
+      {
+        "slug": "laos-discovery-journey",
+        "region": "Northern Laos",
+        "province": "Pakbeng / Oudomxay / Luang Prabang / Vang Vieng / Vientiane",
+        "name": "8 Days / 7 Nights – Laos Discovery Journey",
+        "highlight": "A thoughtfully curated experience through the heart of Laos, combining culture, nature, and authentic local encounters",
+        "duration": "8 DAYS · 7 NIGHTS",
+        "departure": "Houay Xai (Lao Immigration) / Vientiane (Wattay International Airport)",
+        "intro": "A thoughtfully curated experience through the heart of Laos, combining culture, nature, and authentic local encounters. Journey from the Mekong River through remote tribal villages, UNESCO heritage towns, dramatic karst landscapes, and the charming capital of Vientiane.",
+        "highlights": [
+          "Private Mekong River cruise from Houay Xai to Pakbeng",
+          "Visit remote Hmong and Akha tribal villages in Oudomxay",
+          "Experience the high-speed train through northern Laos",
+          "Explore UNESCO World Heritage Luang Prabang",
+          "Discover Kuang Si Waterfalls and Pak Ou Caves",
+          "Witness the traditional morning alms giving ceremony",
+          "Sunset cruise along the Nam Song River in Vang Vieng",
+          "Visit Pha That Luang, Laos' most sacred national monument"
+        ],
+        "days": [
+          {
+            "title": "Day 1 | Pakbeng (LA) (- / L / -)",
+            "body": "Welcome to Laos. Upon arrival, you will be warmly greeted by your guide at Lao Immigration before beginning your journey along one of Southeast Asia's most iconic waterways—the Mekong River.\n\nBoard your private boat in Houay Xai and enjoy a leisurely cruise downstream. Along the way, stop at riverside villages to experience the simple yet fascinating daily life of local communities. A packed lunch will be served on board as you continue your journey, with another village visit en route.\n\nYou will arrive in Pakbeng and check in at Sanctuary Pakbeng Lodge or your preferred hotel, where you can relax and unwind in a peaceful riverside setting."
+          },
+          {
+            "title": "Day 2 | Pakbeng – Oudomxay (Muang Xay) (B / L / -)",
+            "body": "After breakfast, depart for Muang Xay, a scenic drive of approximately 3.5 hours (150 km), with stops along the way to visit local villages and observe rural life. Arriving in Muang Xay, you will notice its unique character shaped by regional influences and its strategic location.\n\nEnjoy lunch at Kanya Restaurant (set menu with water, tea, and coffee included).\n\nIn the afternoon, visit Phou That Stupa, offering panoramic views over the town and surrounding mountains. Continue to Namkat Yorla Pa, a tranquil eco-resort nestled in lush forest near a protected area. After check-in, enjoy free time to relax or explore the resort's activities, including cycling, village visits, waterfall trekking, or simply unwinding by the pool or spa."
+          },
+          {
+            "title": "Day 3 | Oudomxay – Tribal Villages – Luang Prabang (B / L / -)",
+            "body": "This morning, embark on a unique cultural journey into the Muang La region by 4WD. Visit a local market where villagers trade forest products, offering a glimpse into traditional livelihoods. Continue to remote ethnic villages, where you will learn about the customs, daily life, and animist beliefs of the Hmong community. A second visit to an Akha (Ikos) village provides further insight, where women often wear beautifully crafted traditional headdresses.\n\nEnjoy a packed lunch surrounded by scenic mountain landscapes.\n\nIn the afternoon, visit the sacred Phachao Singkham Temple in Muang La before transferring to the train station. Board the train to Luang Prabang (D83: 17:18 – 18:07, second class). Upon arrival, transfer to your hotel and check in at Sanctuary Luang Prabang or your preferred accommodation."
+          },
+          {
+            "title": "Day 4 | Luang Prabang (B / L / -)",
+            "body": "Today, discover the charm of Luang Prabang, a UNESCO World Heritage town renowned for its timeless beauty.\n\nBegin with a private boat cruise along the Mekong River to the famous Pak Ou Caves, home to thousands of Buddha statues. En route, visit Ban Muang Kham, known for its traditional riverweed (Khai) production. After exploring both the lower and upper caves, return to town while enjoying a set lunch served on board.\n\nIn the afternoon, explore the town on foot, taking in its unique blend of Lao and colonial architecture. Highlights include the Royal Palace Museum, Haw Pha Bang Temple, Wat Mai, and the iconic Wat Xieng Thong. End your day by climbing Mount Phousi for a breathtaking sunset over the Mekong and surrounding mountains."
+          },
+          {
+            "title": "Day 5 | Luang Prabang (B / L / -)",
+            "body": "An enriching day awaits as you continue exploring Luang Prabang. Early risers may choose to participate in the traditional Alms Giving Ceremony, a deeply spiritual and cultural experience.\n\nAfter breakfast, travel to the stunning Kuang Si Waterfalls, where turquoise pools invite you for a refreshing swim. Explore the surrounding forest and visit the Free The Bears Rescue Centre.\n\nReturn to town in the afternoon and enjoy leisure time at your own pace. Later, visit Ban Chan, a traditional pottery village, where you can observe local artisans at work and learn about centuries-old craftsmanship."
+          },
+          {
+            "title": "Day 6 | Luang Prabang – Vang Vieng (B / L / -)",
+            "body": "Transfer to the train station and board a comfortable high-speed train to Vang Vieng (C91: 12:52 – 13:44, first class).\n\nUpon arrival, you will be welcomed and transferred to your hotel for check-in. In the late afternoon, enjoy a relaxing sunset cruise along the Nam Song River, surrounded by dramatic limestone mountains.\n\nDinner will be served at the hotel. In the evening, you may explore the lively night market or nearby shops at your leisure."
+          },
+          {
+            "title": "Day 7 | Vang Vieng (B / - / D)",
+            "body": "Today is dedicated to exploring the natural highlights of Vang Vieng. Visit Tham Chang Cave, a historically significant site offering impressive views and fascinating stories from the past.\n\nContinue to one of the famous Blue Lagoons 2, where you can relax, swim, or simply enjoy the natural surroundings. For those seeking more adventure, optional activities such as kayaking or cave exploration are available.\n\nThe afternoon is free for relaxation or personal exploration."
+          },
+          {
+            "title": "Day 8 | Vang Vieng – Vientiane (B / L / -)",
+            "body": "After breakfast, depart for Vientiane, the charming capital of Laos (approximately 1 ½ hour). Upon arrival, begin a guided city tour including Wat Sisaket, known for its thousands of Buddha images, and Wat Phra Keo. Continue to Buddha Park, a unique sculpture park featuring fascinating religious statues.\n\nIn the afternoon, visit Patuxai Monument, Laos' version of the Arc de Triomphe, and the iconic Pha That Luang, the country's most important national symbol.\n\nTransfer to Wattay International Airport for your departure flight."
+          }
+        ],
+        "includes": [
+          "Accommodation on twin-sharing basis",
+          "Daily breakfast (8 meals)",
+          "Lunches as specified (7 meals)",
+          "1 dinner",
+          "Train tickets: Oudomxay → Luang Prabang (2nd class), Luang Prabang → Vang Vieng (1st class)",
+          "Private English-speaking guides",
+          "Private air-conditioned transportation",
+          "Mekong River cruise",
+          "Sunset cruise in Vang Vieng",
+          "4WD transportation in Oudomxay",
+          "Drinking water and refreshing towels",
+          "Entrance fees as per itinerary"
+        ],
+        "excludes": [
+          "International flights",
+          "Meals not specified",
+          "Visa fees and arrangements",
+          "Personal expenses"
+        ]
+      },
+      {
+        "slug": "soul-of-laos",
+        "region": "Multi-Region",
+        "province": "Vientiane / Vang Vieng / Luang Prabang",
+        "name": "Soul of Laos from Capital Charm to UNESCO Heritage",
+        "highlight": "Discover the charm of Vientiane and its iconic landmarks, including Pha That Luang",
+        "duration": "8 DAYS · 7 NIGHTS",
+        "departure": "Vientiane / Luang Prabang",
+        "intro": "From the golden temples of Vientiane to the misty highlands of Luang Prabang, this journey takes you through the heart of Laos. Experience iconic landmarks, stunning natural landscapes, and authentic cultural encounters along the way.",
+        "highlights": [
+          "Discover the charm of Vientiane and its iconic landmarks, including Pha That Luang",
+          "Explore the unique sculptures of Buddha Park",
+          "Experience the stunning limestone landscapes of Vang Vieng",
+          "Enjoy a scenic high-speed train journey to Luang Prabang",
+          "Cruise the Mekong River to the sacred Pak Ou Caves",
+          "Witness the traditional morning alms giving ceremony",
+          "Take part in a hands-on experience at Living Land Farm"
+        ],
+        "days": [
+          {
+            "title": "Day 1: Arrival in Vientiane",
+            "body": "Welcome to Laos! Upon arrival in Vientiane (time to be advised), you will be warmly greeted by your guide and transferred to your hotel in the city center. The rest of the day is at your leisure to relax or begin exploring the laid-back charm of the capital."
+          },
+          {
+            "title": "Day 2: Vientiane City Highlights (Breakfast, Lunch)",
+            "body": "Begin your discovery of Vientiane at 8:30 AM. Visit the peaceful Wat Sisaket, known for its thousands of Buddha images, followed by the revered Wat Si Muang. Continue to Haw Phra Kaew, once the royal temple, and view the Presidential Palace.\n\nAfter lunch, admire the iconic Patuxai, often compared to the Arc de Triomphe, before visiting the sacred Pha That Luang, the most important national monument in Laos."
+          },
+          {
+            "title": "Day 3: Buddha Park – Journey to Vang Vieng (Breakfast)",
+            "body": "This morning, explore the fascinating Buddha Park, home to an eclectic collection of Buddhist and Hindu sculptures set along the Mekong River.\n\nAfterwards, travel north to Vang Vieng (approx. 160 km). Arrive in the afternoon and check in to your hotel, beautifully located along the Nam Song River and surrounded by dramatic limestone mountains."
+          },
+          {
+            "title": "Day 4: Discover Vang Vieng (Breakfast, Lunch)",
+            "body": "Today, immerse yourself in Vang Vieng's stunning natural landscapes. Journey through the countryside to visit local villages and explore impressive cave systems.\n\nHighlights include Tham Phu Kham Cave, famous for its blue lagoon and reclining Buddha, the intriguing Tham Nam Xay Cave, and the mystical Tham Nang Fa Cave, known for its striking formations and underground chambers."
+          },
+          {
+            "title": "Day 5: High-Speed Train to Luang Prabang & Pak Ou Caves (Breakfast)",
+            "body": "Transfer to the train station for your high-speed rail journey to Luang Prabang (departure around 11:00 AM).\n\nUpon arrival, meet your local guide and continue with a scenic Mekong River boat trip to the sacred Pak Ou Caves, filled with thousands of Buddha statues placed by pilgrims over centuries. Return to Luang Prabang in the late afternoon."
+          },
+          {
+            "title": "Day 6: Explore Luang Prabang – UNESCO Heritage Town (Breakfast, Lunch)",
+            "body": "Discover the timeless beauty of Luang Prabang, a UNESCO World Heritage Site. Visit the Royal Palace Museum and some of the town's most elegant temples, including Wat Xieng Thong and Wat Visoun.\n\nIn the evening, climb Mount Phou Si to enjoy a breathtaking sunset over the Mekong River and surrounding mountains."
+          },
+          {
+            "title": "Day 7: Alms Giving & Living Land Farm Experience (Breakfast, Lunch)",
+            "body": "Rise early to witness the serene morning ritual of alms giving, where saffron-robed monks collect offerings from local residents—a deeply spiritual and memorable experience.\n\nAfter breakfast, head to Living Land Farm for a hands-on rice farming experience. Learn every step of traditional rice cultivation and take part in the process yourself. Enjoy a local lunch before returning to your hotel."
+          },
+          {
+            "title": "Day 8: Departure from Luang Prabang (Breakfast)",
+            "body": "After breakfast, your guide will transfer you to the airport for your onward flight, marking the end of your unforgettable journey through Laos."
+          }
+        ],
+        "includes": [
+          "Accommodation at the hotels/homestays/campsites as specified in the itinerary",
+          "Professional tour guide in the selected language",
+          "All transportation as stated in the itinerary",
+          "Meals as indicated in the itinerary",
+          "Entrance fees to all sites mentioned in the program",
+          "High-speed train ticket: Vang Vieng to Luang Prabang",
+          "Mekong River boat trip to Pak Ou Caves",
+          "Living Land Farm experience",
+          "Government tax"
+        ],
+        "excludes": [
+          "Gratuities for guide, driver, porter, and hotel staff",
+          "Visa fees and travel insurance",
+          "Personal expenses of any nature",
+          "Meals not specified in the itinerary",
+          "International flights"
+        ]
       }
     ]
   },
