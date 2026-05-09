@@ -122,6 +122,10 @@
   box-shadow: 0 8px 30px rgba(201,168,76,0.4);
 }
 
+.backdrop {
+  display: none;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -154,6 +158,14 @@
 }
 
 @media (max-width: 768px) {
+  .backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+  }
+
   .nav {
     padding: 1rem 1.5rem;
   }

@@ -26,6 +26,10 @@ html, body {
   overflow-x: hidden;
 }
 
+body.nav-open {
+  overflow: hidden;
+}
+
 /* ── BASE ── */
 body {
   background: var(--navy);

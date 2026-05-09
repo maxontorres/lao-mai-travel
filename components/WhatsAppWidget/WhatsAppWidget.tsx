@@ -16,6 +16,7 @@ export default function WhatsAppWidget({
   const [visible, setVisible] = useState(false)
   const [bubbleVisible, setBubbleVisible] = useState(false)
   const [bubbleDismissed, setBubbleDismissed] = useState(false)
+  const [navOpen, setNavOpen] = useState(false)
 
   useEffect(() => {
     const buttonTimer = setTimeout(() => setVisible(true), 1500)
@@ -26,6 +27,14 @@ export default function WhatsAppWidget({
     }
   }, [])
 
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      setNavOpen(document.body.classList.contains('nav-open'))
+    })
+    observer.observe(document.body, { attributes: true, attributeFilter: ['class'] })
+    return () => observer.disconnect()
+  }, [])
+
   const encodedMessage = encodeURIComponent(message)
   const cleanPhone = phoneNumber.replace(/\D/g, '')
   const href = `https://wa.me/${cleanPhone}?text=${encodedMessage}`
@@ -33,7 +42,7 @@ export default function WhatsAppWidget({
   const showBubble = bubbleVisible && !bubbleDismissed
 
   return (
-    <div style={{ position: 'fixed', bottom: '28px', right: '28px', zIndex: 9999, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '10px' }}>
+    <div style={{ position: 'fixed', bottom: '28px', right: '28px', zIndex: 9999, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '10px', opacity: navOpen ? 0 : 1, pointerEvents: navOpen ? 'none' : 'auto', transition: 'opacity 0.25s ease' }}>
       {/* Welcome message bubble */}
       <div
         style={{
