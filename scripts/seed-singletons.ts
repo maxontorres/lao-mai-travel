@@ -22,7 +22,8 @@ const client = createClient({
 })
 
 async function main() {
-  const docs = [
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const docs: any[] = [
 
     // ─── Site Settings ────────────────────────────────────────────────────────
     {
