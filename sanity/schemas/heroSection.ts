@@ -5,7 +5,8 @@ export default defineType({
   title: 'Hero Section',
   type: 'document',
   groups: [
-    { name: 'english', title: 'English Content', default: true },
+    { name: 'media',   title: 'Background Image', default: true },
+    { name: 'english', title: 'English Content' },
     { name: 'thai',    title: 'Thai Content' },
   ],
   fields: [
@@ -29,6 +30,7 @@ export default defineType({
       name: 'backgroundImage',
       title: 'Background Image',
       type: 'image',
+      group: 'media',
       options: { hotspot: true },
       description: 'Full-screen hero background. Recommended: landscape, min 1920×1080px.',
     }),
