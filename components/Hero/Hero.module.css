@@ -10,9 +10,9 @@
 .heroBg {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(to right, rgba(10,15,46,0.92) 0%, rgba(10,15,46,0.75) 30%, rgba(10,15,46,0.25) 60%, transparent 100%),
-    url('/img/hero/laos-temple.jpg?w=1920&q=85') center / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   transform: scale(1.05);
   animation: slowZoom 20s ease-out both;
 }

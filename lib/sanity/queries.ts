@@ -5,14 +5,15 @@ const imageFields = `{ asset, hotspot, crop, alt }`
 
 export const heroQuery = `
   *[_type == "heroSection"][0] {
-    "eyebrow":    select($locale == "th" => eyebrow_th,    eyebrow_en),
-    "titleLine1": select($locale == "th" => titleLine1_th, titleLine1_en),
-    "titleLine2": select($locale == "th" => titleLine2_th, titleLine2_en),
-    "subtitle":   select($locale == "th" => subtitle_th,   subtitle_en),
-    "body":       select($locale == "th" => body_th,       body_en),
-    "exploreCta": select($locale == "th" => exploreCta_th, exploreCta_en),
-    "planCta":    select($locale == "th" => planCta_th,    planCta_en),
-    "scroll":     select($locale == "th" => scroll_th,     scroll_en),
+    "eyebrow":         select($locale == "th" => eyebrow_th,    eyebrow_en),
+    "titleLine1":      select($locale == "th" => titleLine1_th, titleLine1_en),
+    "titleLine2":      select($locale == "th" => titleLine2_th, titleLine2_en),
+    "subtitle":        select($locale == "th" => subtitle_th,   subtitle_en),
+    "body":            select($locale == "th" => body_th,       body_en),
+    "exploreCta":      select($locale == "th" => exploreCta_th, exploreCta_en),
+    "planCta":         select($locale == "th" => planCta_th,    planCta_en),
+    "scroll":          select($locale == "th" => scroll_th,     scroll_en),
+    "backgroundImage": backgroundImage ${imageFields},
   }
 `
 

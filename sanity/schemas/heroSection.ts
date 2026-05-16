@@ -25,6 +25,13 @@ export default defineType({
     defineField({ name: 'exploreCta_th', title: '"Explore Tours" Button Label (TH)',   type: 'string', group: 'thai' }),
     defineField({ name: 'planCta_th',    title: '"Plan Your Trip" Button Label (TH)',  type: 'string', group: 'thai' }),
     defineField({ name: 'scroll_th',     title: 'Scroll Indicator Label (TH)',         type: 'string', group: 'thai' }),
+    defineField({
+      name: 'backgroundImage',
+      title: 'Background Image',
+      type: 'image',
+      options: { hotspot: true },
+      description: 'Full-screen hero background. Recommended: landscape, min 1920×1080px.',
+    }),
   ],
   preview: { prepare: () => ({ title: 'Hero Section' }) },
 })

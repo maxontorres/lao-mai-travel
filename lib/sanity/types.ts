@@ -7,14 +7,15 @@ export interface SanityImageRef {
 
 // ── Hero ──────────────────────────────────────────────
 export interface HeroData {
-  eyebrow:    string
-  titleLine1: string
-  titleLine2: string
-  subtitle:   string
-  body:       string
-  exploreCta: string
-  planCta:    string
-  scroll:     string
+  eyebrow:         string
+  titleLine1:      string
+  titleLine2:      string
+  subtitle:        string
+  body:            string
+  exploreCta:      string
+  planCta:         string
+  scroll:          string
+  backgroundImage: SanityImageRef | null
 }
 
 // ── Tour Packages Section Header ──────────────────────
