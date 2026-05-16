@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
   }
 
   const tags = TAG_MAP[_type] ?? []
-  tags.forEach((tag) => revalidateTag(tag))
+  tags.forEach((tag) => revalidateTag(tag, {}))
 
   return NextResponse.json({ revalidated: true, type: _type, tags })
 }
