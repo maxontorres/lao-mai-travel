@@ -8,6 +8,7 @@
     "about": "ABOUT",
     "contact": "CONTACT",
     "companyProfile": "COMPANY PROFILE",
+    "blog": "BLOG",
     "bookNow": "BOOK NOW"
   },
   "hero": {
@@ -801,6 +802,7 @@
     "address": "Ban Viengkham, Sikhottabong District, Vientiane Capital",
     "hours": "Mon–Sat · 8:00–18:00",
     "copyright": "© {year} Lao Mai Travel. All rights reserved.",
+    "blog": "Blog",
     "companyProfile": "Company Profile",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"

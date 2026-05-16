@@ -1,11 +1,12 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import { useTranslations } from 'next-intl'
+import type { PanoramaData } from '@/lib/sanity/types'
 import styles from './Panorama.module.css'
 
-export default function Panorama() {
-  const t = useTranslations('panorama')
+interface Props { data: PanoramaData }
+
+export default function Panorama({ data }: Props) {
   const bgRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -34,9 +35,9 @@ export default function Panorama() {
       <div ref={bgRef} className={styles.bg} />
       <div className={styles.gradient} />
       <div className={styles.content}>
-        <div className={styles.eyebrow}>{t('eyebrow')}</div>
+        <div className={styles.eyebrow}>{data.eyebrow}</div>
         <div className={styles.headline}>
-          {t('headlineLine1')} <em>{t('headlineEm')}</em> {t('headlineLine2')}
+          {data.headlineLine1} <em>{data.headlineEm}</em> {data.headlineLine2}
         </div>
         <div className={styles.dividerLine} />
       </div>

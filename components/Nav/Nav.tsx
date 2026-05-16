@@ -25,6 +25,7 @@ export default function Nav() {
     { label: t('about'),           href: '#about' },
     { label: t('contact'),         href: '#contact' },
     { label: t('companyProfile'),  href: '/company-profile' },
+    { label: t('blog'),            href: '/blog' },
   ]
 
   const switchLocale = (newLocale: string) => {

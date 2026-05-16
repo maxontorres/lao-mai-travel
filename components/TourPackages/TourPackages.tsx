@@ -1,19 +1,11 @@
 import Image from 'next/image'
-import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
+import type { TourCard, TourPackagesSectionHeader } from '@/lib/sanity/types'
+import { urlFor } from '@/lib/sanity/image'
 import styles from './TourPackages.module.css'
 
-type TourMessage = {
-  slug: string
-  region: string
-  province: string
-  name: string
-  highlight: string
-  duration: string
-}
-
-// The Tour Package Cards
-const tourAssets: Record<string, string> = {
+// Fallback cover images keyed by slug (used until images are uploaded to Sanity)
+const fallbackCovers: Record<string, string> = {
   'hidden-legacy-houaphanh':
     '/img/tourpackages/hidden-legacy-houaphanh/caves-entrance.jpg',
   'hidden-tribes-of-northern-phongsaly':
@@ -34,37 +26,38 @@ const tourAssets: Record<string, string> = {
     '/img/tourpackages/luang-prabang-turquoise-falls-sacred-caves-tour/Turquoise-Falls-&-Sacred-Caves-Tour-1.jpeg',
   'luang-prabang-cultural-pottery':
     '/img/tourpackages/luang-prabang-cultural-pottery-experience/Lao-Pottery-House-1.jpeg',
-
-  // Authentic Hmong & Khmu Trek from Luang Prabang
   'authentic-hmong-khmu-trek':
     '/img/tourpackages/authentic-hmong-&-khmu-trek-from-luang-prabang/group-photo-trekking.jpeg',
   'luang-prabang-cultural-homestay':
     '/img/tourpackages/luang-prabang-cultural-exchange-homestay-program/Luang Prabang Cultural Exchange & Homestay Program 4Days 3 Nights (1).jpeg',
-  'laos-discovery-journey':
-    '/img/hero/laos-temple.jpg',
-  'soul-of-laos':
-    '/img/tourpackages/soul-of-laos/vientiane-capital.jpg',
+  'laos-discovery-journey': '/img/hero/laos-temple.jpg',
+  'soul-of-laos':           '/img/tourpackages/soul-of-laos/vientiane-capital.jpg',
 }
 
-export default function TourPackages() {
-  const t = useTranslations('packages')
-  const tours = t.raw('tours') as TourMessage[]
+interface Props {
+  header: TourPackagesSectionHeader
+  tours:  TourCard[]
+}
 
+export default function TourPackages({ header, tours }: Props) {
   return (
     <section className={styles.section} id="packages">
       <div className={styles.header}>
         <div>
-          <div className={styles.eyebrow}>{t('eyebrow')}</div>
+          <div className={styles.eyebrow}>{header.eyebrow}</div>
           <h2 className={styles.title}>
-            {t('titlePrefix')} <em>{t('titleEm')}</em>
+            {header.titlePrefix} <em>{header.titleEm}</em>
           </h2>
         </div>
-        <p className={styles.intro}>{t('intro')}</p>
+        <p className={styles.intro}>{header.intro}</p>
       </div>
 
       <div className={styles.grid}>
         {tours.map((tour) => {
-          const coverImg = tourAssets[tour.slug] ?? ''
+          const coverImg = tour.coverImage
+            ? urlFor(tour.coverImage).width(800).height(600).quality(80).url()
+            : fallbackCovers[tour.slug] ?? ''
+
           return (
             <Link
               key={tour.slug}

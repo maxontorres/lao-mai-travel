@@ -1,0 +1,51 @@
+.hero {
+  padding: 8rem 2rem 4rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 1rem;
+  line-height: 1.15;
+}
+
+.title em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.subtitle {
+  color: rgba(253, 248, 239, 0.65);
+  font-size: 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.empty {
+  text-align: center;
+  color: rgba(253, 248, 239, 0.5);
+  padding: 4rem 0;
+}

@@ -5,28 +5,17 @@ import { Link } from '@/i18n/navigation'
 import TourGallery from '@/components/TourGallery/TourGallery'
 import Nav from '@/components/Nav/Nav'
 import Footer from '@/components/Footer/Footer'
+import { sanityFetch } from '@/lib/sanity/client'
+import { client } from '@/lib/sanity/client'
+import { tourPackageDetailQuery, tourSlugsQuery, siteSettingsQuery } from '@/lib/sanity/queries'
+import { urlFor } from '@/lib/sanity/image'
+import type { TourDetail, SiteSettings } from '@/lib/sanity/types'
 import styles from './tour.module.css'
 
 type Props = { params: Promise<{ locale: string; slug: string }> }
 
-type Day = { title: string; body: string }
-
-type TourMessage = {
-  slug: string
-  region: string
-  province: string
-  name: string
-  highlight: string
-  duration: string
-  departure: string
-  intro?: string
-  highlights?: string[]
-  days: Day[]
-  includes: string[]
-  excludes: string[]
-}
-
-const GALLERY: Record<string, string[]> = {
+// Fallback gallery images (used until images are uploaded to Sanity)
+const FALLBACK_GALLERY: Record<string, string[]> = {
   'hidden-legacy-houaphanh': [
     '/img/tourpackages/hidden-legacy-houaphanh/caves-entrance.jpg',
     '/img/tourpackages/hidden-legacy-houaphanh/caves-entrance-sunlight.jpg',
@@ -94,8 +83,6 @@ const GALLERY: Record<string, string[]> = {
     '/img/tourpackages/luang-prabang-cultural-pottery-experience/Lao-Pottery-House-2.jpeg',
     '/img/tourpackages/luang-prabang-cultural-pottery-experience/Lao-Pottery-House-3.jpeg',
   ],
-  
-  // Authentic Hmong & Khmu Trek from Luang Prabang 
   'authentic-hmong-khmu-trek': [
     '/img/tourpackages/authentic-hmong-&-khmu-trek-from-luang-prabang/group-photo-trekking.jpeg',
     '/img/tourpackages/authentic-hmong-&-khmu-trek-from-luang-prabang/group-photo-at-village.jfif',
@@ -116,7 +103,6 @@ const GALLERY: Record<string, string[]> = {
     '/img/tourpackages/luang-prabang-turquoise-falls-sacred-caves-tour/Turquoise-Falls-&-Sacred-Caves-Tour-1.jpeg',
     '/img/tourpackages/cycling-the-karsts-lagoons/palace-vacation-travel-buddhist-landmark-tourism-1275876-pxhere.com.jpg',
     '/img/tourpackages/vang-vieng-cave-kayaking-experience/landscape-tree-water-nature-mountain-cloud-971263-pxhere.com.jpg',
-    '/img/tourpackages/vientiane-culinary-cultural-experience/palace-monument-tower-landmark-tourism-place-of-worship-568215-pxhere.com.jpg',
   ],
   'soul-of-laos': [
     '/img/tourpackages/vientiane-culinary-cultural-experience/palace-monument-tower-landmark-tourism-place-of-worship-568215-pxhere.com.jpg',
@@ -125,11 +111,16 @@ const GALLERY: Record<string, string[]> = {
     '/img/tourpackages/vang-vieng-cave-kayaking-experience/landscape-sea-water-mountain-cloud-sunset-1191000-pxhere.com.jpg',
     '/img/tourpackages/luang-prabang-cultural-exchange-homestay-program/Luang Prabang Cultural Exchange & Homestay Program 4Days 3 Nights (2).jpeg',
     '/img/tourpackages/luang-prabang-turquoise-falls-sacred-caves-tour/Turquoise-Falls-&-Sacred-Caves-Tour-2.jpg',
-    '/img/tourpackages/cycling-the-karsts-lagoons/building-vacation-travel-tourism-place-of-worship-temple-612026-pxhere.com.jpg',
   ],
 }
 
 export async function generateStaticParams() {
+  try {
+    const tours = await client.fetch<{ slug: string }[]>(tourSlugsQuery)
+    if (tours?.length) return tours.map(({ slug }) => ({ slug }))
+  } catch {
+    // Sanity not yet configured — use hardcoded slugs as fallback
+  }
   return [
     { slug: 'hidden-legacy-houaphanh' },
     { slug: 'hidden-tribes-of-northern-phongsaly' },
@@ -150,9 +141,11 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props) {
   const { locale, slug } = await params
-  const t = await getTranslations({ locale, namespace: 'packages' })
-  const tours = t.raw('tours') as TourMessage[]
-  const tour = tours.find((tr) => tr.slug === slug)
+  const tour = await sanityFetch<TourDetail | null>({
+    query: tourPackageDetailQuery,
+    params: { locale, slug },
+    tags: ['tourPackage'],
+  })
   if (!tour) return { title: 'Tour Not Found' }
   return { title: `${tour.name} — Lao Mai Travel` }
 }
@@ -160,13 +153,30 @@ export async function generateMetadata({ params }: Props) {
 export default async function TourDetailPage({ params }: Props) {
   const { locale, slug } = await params
   const t = await getTranslations({ locale, namespace: 'packages' })
-  const tours = t.raw('tours') as TourMessage[]
-  const tour = tours.find((tr) => tr.slug === slug)
+
+  const [tour, settings] = await Promise.all([
+    sanityFetch<TourDetail | null>({
+      query: tourPackageDetailQuery,
+      params: { locale, slug },
+      tags: ['tourPackage'],
+    }),
+    sanityFetch<SiteSettings | null>({
+      query: siteSettingsQuery,
+      params: { locale },
+      tags: ['siteSettings'],
+    }),
+  ])
 
   if (!tour) notFound()
 
-  const images = GALLERY[slug] ?? []
-  const heroImg = images[0] ?? null
+  // Prefer Sanity gallery; fall back to local images
+  const images: string[] = tour.gallery?.length
+    ? tour.gallery.map((img) => urlFor(img).width(1200).quality(80).url())
+    : FALLBACK_GALLERY[slug] ?? []
+
+  const heroImg = tour.coverImage
+    ? urlFor(tour.coverImage).width(1920).quality(85).url()
+    : images[0] ?? null
 
   return (
     <>
@@ -224,7 +234,7 @@ export default async function TourDetailPage({ params }: Props) {
           <div className={styles.itineraryLabel}>Itinerary</div>
 
           <div className={styles.days}>
-            {tour.days.map((day, i) => (
+            {tour.days?.map((day, i) => (
               <div key={i} className={styles.day}>
                 <div className={styles.dayTitle}>{day.title}</div>
                 <p className={styles.dayBody}>{day.body}</p>
@@ -245,7 +255,7 @@ export default async function TourDetailPage({ params }: Props) {
           <div className={styles.metaBlock}>
             <div className={styles.metaLabel}>{t('priceIncludes')}</div>
             <ul className={styles.metaList}>
-              {tour.includes.map((item, i) => (
+              {tour.includes?.map((item, i) => (
                 <li key={i} className={styles.metaInclude}>{item}</li>
               ))}
             </ul>
@@ -254,7 +264,7 @@ export default async function TourDetailPage({ params }: Props) {
           <div className={styles.metaBlock}>
             <div className={styles.metaLabel}>{t('priceExcludes')}</div>
             <ul className={styles.metaList}>
-              {tour.excludes.map((item, i) => (
+              {tour.excludes?.map((item, i) => (
                 <li key={i} className={styles.metaExclude}>{item}</li>
               ))}
             </ul>
@@ -270,7 +280,7 @@ export default async function TourDetailPage({ params }: Props) {
 
       </div>
 
-      <Footer />
+      <Footer siteSettings={settings} />
     </>
   )
 }

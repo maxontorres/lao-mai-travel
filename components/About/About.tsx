@@ -1,13 +1,14 @@
 import Image from 'next/image'
-import { useTranslations } from 'next-intl'
+import type { AboutData } from '@/lib/sanity/types'
+import { urlFor } from '@/lib/sanity/image'
 import styles from './About.module.css'
-import FounderCard from '@/components/FounderCard/FounderCard'
 
-const featureIcons = ['🧭', '✦', '🌿']
+interface Props { data: AboutData }
 
-export default function About() {
-  const t = useTranslations('about')
-  const features = t.raw('features') as Array<{ title: string; desc: string }>
+export default function About({ data }: Props) {
+  const imgSrc = data.image
+    ? urlFor(data.image).width(700).quality(80).url()
+    : 'https://images.unsplash.com/photo-1723622688505-3efc54d4dbae?w=700&q=80'
 
   return (
     <section className={styles.section} id="about">
@@ -18,17 +19,17 @@ export default function About() {
         <div className={styles.imgWrap}>
           <div className={styles.imgMain}>
             <Image
-              src="https://images.unsplash.com/photo-1723622688505-3efc54d4dbae?w=700&q=80"
-              alt="Laos temple"
+              src={imgSrc}
+              alt={data.image?.alt ?? 'Laos temple'}
               fill
               className={styles.img}
               sizes="40vw"
             />
           </div>
           <div className={styles.badge}>
-            <span className={styles.badgeNum}>{t('badgeNum')}</span>
+            <span className={styles.badgeNum}>{data.badgeNum}</span>
             <span className={styles.badgeLabel}>
-              {t('badgeLabel').split('\n').map((line, i) => (
+              {data.badgeLabel?.split('\n').map((line, i) => (
                 <span key={i}>{i > 0 && <br />}{line}</span>
               ))}
             </span>
@@ -37,23 +38,17 @@ export default function About() {
 
         {/* Text */}
         <div className={styles.text}>
-          <div className={styles.eyebrow}>{t('eyebrow')}</div>
+          <div className={styles.eyebrow}>{data.eyebrow}</div>
           <div className={styles.titleWrap}>
             <h2 className={styles.title}>
-              {t('titleLine1')}<br /><em>{t('titleLine2')}</em>
+              {data.titleLine1}<br /><em>{data.titleLine2}</em>
             </h2>
-
-              {/* Founder picture */}
-            {/* <div className={styles.imgAccent}>
-              <FounderCard variant="compact" />
-            </div> */}
-
           </div>
-          <p className={styles.body}>{t('body')}</p>
+          <p className={styles.body}>{data.body}</p>
           <ul className={styles.features}>
-            {features.map((f, i) => (
+            {data.features?.map((f) => (
               <li key={f.title} className={styles.feature}>
-                <div className={styles.featureIcon}>{featureIcons[i]}</div>
+                <div className={styles.featureIcon}>{f.icon}</div>
                 <div>
                   <div className={styles.featureTitle}>{f.title}</div>
                   <p className={styles.featureDesc}>{f.desc}</p>

@@ -1,9 +1,22 @@
 import { useTranslations } from 'next-intl'
+import type { SiteSettings } from '@/lib/sanity/types'
 import { CONTACT } from '@/lib/contact'
 import styles from './Map.module.css'
 
-export default function Map() {
+interface Props { siteSettings: SiteSettings | null }
+
+export default function Map({ siteSettings }: Props) {
   const t = useTranslations('map')
+
+  const phone    = siteSettings?.phone    ?? CONTACT.phone
+  const phoneTel = siteSettings?.phoneTel ?? CONTACT.phoneTel
+  const email    = siteSettings?.email    ?? CONTACT.email
+  const address  = siteSettings?.address  ?? t('address')
+  const hours    = siteSettings?.hours    ?? t('hours')
+  const lat      = siteSettings?.mapLat   ?? 18.029567
+  const lng      = siteSettings?.mapLng   ?? 102.513433
+
+  const embedSrc = `https://maps.google.com/maps?q=${lat},${lng}&z=17&output=embed`
 
   return (
     <section className={styles.section}>
@@ -14,19 +27,19 @@ export default function Map() {
         <div className={styles.details}>
           <div className={styles.item}>
             <span>📍</span>
-            <span>{t('address')}</span>
+            <span>{address}</span>
           </div>
           <div className={styles.item}>
             <span>📞</span>
-            <a href={`tel:${CONTACT.phoneTel}`}>{CONTACT.phone}</a>
+            <a href={`tel:${phoneTel}`}>{phone}</a>
           </div>
           <div className={styles.item}>
             <span>✉</span>
-            <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
+            <a href={`mailto:${email}`}>{email}</a>
           </div>
           <div className={styles.item}>
             <span>🕐</span>
-            <span>{t('hours')}</span>
+            <span>{hours}</span>
           </div>
         </div>
         <a
@@ -41,7 +54,7 @@ export default function Map() {
 
       <div className={styles.mapWrap}>
         <iframe
-          src="https://maps.google.com/maps?q=18.029567,102.513433&z=17&output=embed"
+          src={embedSrc}
           title="Lao Mai Travel office location"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

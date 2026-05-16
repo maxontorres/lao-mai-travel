@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'images.unsplash.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.sanity.io'
       }
     ],
     formats: ['image/avif', 'image/webp'],
@@ -53,6 +57,14 @@ const nextConfig: NextConfig = {
           key: 'Cache-Control',
           value: 'public, max-age=31536000, immutable'
         }
+      ]
+    },
+    {
+      source: '/studio/:path*',
+      headers: [
+        { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
+        // Studio needs inline scripts and eval for its rich editor
+        { key: 'Content-Security-Policy', value: "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:" },
       ]
     }
   ]

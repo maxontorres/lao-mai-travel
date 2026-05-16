@@ -1,48 +1,54 @@
 'use client'
 
 import { useState } from 'react'
-import { useTranslations } from 'next-intl'
+import type { DestinationsSectionData } from '@/lib/sanity/types'
+import { urlFor } from '@/lib/sanity/image'
 import ImageWithSkeleton from '@/components/ImageWithSkeleton/ImageWithSkeleton'
 import DestinationModal from './DestinationModal'
 import styles from './Destinations.module.css'
 
-const destinationImages = [
-  { img: 'https://images.unsplash.com/photo-1704212685546-3086abc1e6a1?w=900&q=80', featured: true },
-  { img: 'https://images.unsplash.com/photo-1737037344843-7f6d4867d648?w=600&q=80' },
-  { img: 'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=600&q=80' },
-  { img: '/img/destinations/bolaven-plateau/bolaven-plateau-trail.jpg' },
-  { img: '/img/destinations/4000-islands/4000-islands-SI-PHAN-DON.jpg' },
+// Fallback images keyed by index (used until images are uploaded to Sanity)
+const fallbackImages = [
+  'https://images.unsplash.com/photo-1704212685546-3086abc1e6a1?w=900&q=80',
+  'https://images.unsplash.com/photo-1737037344843-7f6d4867d648?w=600&q=80',
+  'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=600&q=80',
+  '/img/destinations/bolaven-plateau/bolaven-plateau-trail.jpg',
+  '/img/destinations/4000-islands/4000-islands-SI-PHAN-DON.jpg',
 ]
 
-interface Destination {
-  name: string
-  tag: string
+interface DestinationView {
+  name:        string
+  tag:         string
   description: string
-  img: string
-  featured?: boolean
+  img:         string
+  featured:    boolean
 }
 
-export default function Destinations() {
-  const t = useTranslations('destinations')
-  const items = t.raw('items') as Array<{ name: string; tag: string; description: string }>
+interface Props { data: DestinationsSectionData }
 
-  const destinations: Destination[] = items.map((item, i) => ({
-    ...item,
-    ...destinationImages[i],
+export default function Destinations({ data }: Props) {
+  const destinations: DestinationView[] = (data.items ?? []).map((item, i) => ({
+    name:        item.name,
+    tag:         item.tag,
+    description: item.description,
+    img: item.image
+      ? urlFor(item.image).width(item.featured ? 900 : 600).quality(80).url()
+      : fallbackImages[i] ?? '',
+    featured: item.featured ?? false,
   }))
 
-  const [selected, setSelected] = useState<Destination | null>(null)
+  const [selected, setSelected] = useState<DestinationView | null>(null)
 
   return (
     <section className={styles.section} id="destinations">
       <div className={styles.intro}>
         <div>
-          <div className={styles.eyebrow}>{t('eyebrow')}</div>
+          <div className={styles.eyebrow}>{data.eyebrow}</div>
           <h2 className={styles.title}>
-            {t('titleLine1')}<br /><em>{t('titleLine2')}</em>
+            {data.titleLine1}<br /><em>{data.titleLine2}</em>
           </h2>
         </div>
-        <p className={styles.desc}>{t('desc')}</p>
+        <p className={styles.desc}>{data.desc}</p>
       </div>
 
       <div className={styles.grid}>
@@ -73,7 +79,7 @@ export default function Destinations() {
       {selected && (
         <DestinationModal
           destination={selected}
-          cta={t('modalCta')}
+          cta={data.modalCta}
           onClose={() => setSelected(null)}
         />
       )}
